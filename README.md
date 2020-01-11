@@ -1,8 +1,8 @@
-# DataSortingService
+```# DataSortingService
 This service returns takes a JSON as an input and returns a ordered CSV format of it. 
 URL Endpoint : http://localhost:8080/DataSortingService/
 Example input:
-```json{
+{
     "Items": [
         {
             "Name": "Alice",

@@ -2,7 +2,7 @@
 This service returns takes a JSON as an input and returns a ordered CSV format of it. 
 URL Endpoint : http://localhost:8080/DataSortingService/
 Example input:
-{
+```json{
     "Items": [
         {
             "Name": "Alice",
@@ -29,7 +29,8 @@ Example input:
             "Active": true
         }
     ]
-}
+}```
+
 CURL command to fetch the output :
 curl -H "Content-Type: application/json" -d @input.json -X POST http://localhost:8080/DataSortingService/
 input.json is the input file stored in the current directory
